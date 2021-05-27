@@ -1,0 +1,10 @@
+CREATE TABLE utover
+(
+    id INTEGER AUTO_INCREMENT NOT NULL,
+    fornavn VARCHAR(3) NOT NULL,
+    etternavn VARCHAR(255) NOT NULL,
+    klubb VARCHAR(255) NOT NULL,
+    epost VARCHAR(255) NOT NULL,
+    passord VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
